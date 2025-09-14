@@ -1,0 +1,19 @@
+[package]
+name = "rpiboot_rs_cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+
+[dependencies.rpiboot_rs_lib]
+path = "../rpiboot_rs_lib"
+
+[dependencies.clap]
+version = "4.5.47"
+features = ["cargo", "env", "error-context", "derive", "debug", "unicode", "wrap_help", "color", "usage", "suggestions"]
+
+
+[dependencies.paris]
+version = "1.5.15"
+features = ["timestamps", "macros"]

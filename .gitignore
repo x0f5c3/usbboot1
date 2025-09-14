@@ -3,3 +3,6 @@ bin2c
 *.exe
 *.swp
 temp/
+target
+.idea
+rpi-imager-embedded/boot.img
